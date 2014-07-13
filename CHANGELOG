@@ -1,3 +1,29 @@
+v 3.0.3 - 07/09/2014
+- Fixed multipart upload data corruption
+
+v 3.0.2 - 07/09/2014
+- Fixed broken mimetype filtering
+- Fixed that FPPicker.framework was not using the release build configuration
+- Return FPPickerControllerKey when Amazon S3 Storage is used
+- Updated FPSourceGoogleDrive to 'googledrive'
+
+v 3.0.1 - 07/04/2014
+- Switched from legacy GDrive client url to GoogleDrive
+
+v 3.0.0 - Major Release - 06/27/2014
+- Modernized code
+- Library now targets iOS 6.0 and later
+- Library now is also available as a CocoaPod
+- Library now depends on AFNetworking 2.x
+- Several memory-related bugfixes
+- Fixed freezes on iPhone 4
+- and more.
+
+v 2.7.0 - 06/06/2014
+- Updated Box and Facebook allowedUrls
+- Fixed bug with crash when you start uploading files with keyboard opened
+- Renamed SkyDrive to OneDrive and update OneDrive path to API
+
 v 2.6.1 - 12/18/2013
 - Updated code base to use dialog.filepicker.io hostname
 
